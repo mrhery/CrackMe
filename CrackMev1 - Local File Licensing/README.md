@@ -1,5 +1,5 @@
 # Introduction
-This version of CrackMe uses a simple license key validation. This program doesn't internet connection since the license key is stored locally in the program. You can use dnSpy or Ghidra to crack this program.
+This version of CrackMe uses a simple license key validation. This program doesn't need internet connection since the license key is stored locally in the program. You can use dnSpy or Ghidra to crack this program.
 
 # Walkthrough
 Since this program is locally validated, it must store the key somewhere. Why not we first try run the program and see if the any files created to store the key. This is simple, the key is stored in `license.key`. So we can copy and paste into the lincese validation box.
