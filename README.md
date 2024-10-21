@@ -9,5 +9,19 @@ Since these programs developed in C# and Java, you might need to install Visual 
 
 You can also download https://github.com/dnSpy/dnSpy which is a tool to reverse engineer C# code and Ghidra (https://github.com/NationalSecurityAgency/ghidra) + Dex2Jar https://github.com/pxb1988/dex2jar to reverse engineer Java Program. (Basically Ghidra can reverse most of the thing).
 
+# Build the web server
+1. Navigate to the web server directory
+```bash
+   cd ./crackme-web
+```
+2. Run Docker Compose to build and start the containers in detached mode
+```bash
+docker compose up -d
+```
+3. Test the Webserver by opening your browser and navigating to
+```bash
+http://localhost:80
+```
+
 # Walkthroughs
 I have put the walkthrough details in every version folder in README.md. 
