@@ -14,7 +14,7 @@ namespace CrackMe
 {
     public partial class Home : Form
     {
-        string url = "https://license-crackme.tukul.app/v5/get-time.php";
+        string url = "http://localhost/crackme-web/v5/get-time.php";
 
         public Home()
         {

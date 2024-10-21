@@ -15,7 +15,7 @@ namespace CrackMe
     public partial class Home : Form
     {
         static LicenseKey licenseKeyPage = null;
-        string url = "https://license-crackme.tukul.app/v4/get-key.php";
+        string url = "http://localhost/crackme-web/v4/get-key.php";
 
         public Home()
         {
